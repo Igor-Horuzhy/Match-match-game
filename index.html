@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css"></link>
+  <script src="lodash.min.js"></script>
+  <script src="actions.js"></script>
+</head>
+<body>
+	<div id="time" style="padding-left: 715px" >
+		<p style="display: inline;">Timer:  m </p>
+		<div id="mins" style="display: inline;">0</div>
+		<p style="display: inline;"> s </p>
+		<div id="secs" style="display: inline;">0</div>
+	</div>
+
+	<div id="newGameButton" >
+  		<button onclick="newBoard()" style="height: 30px; width: 100px;">New Game</button>
+	</div>
+
+  	<div id="memory_board"></div>
+  	<script>newBoard();</script>
+</body>
+</html>
